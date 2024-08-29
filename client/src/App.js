@@ -10,7 +10,7 @@ function App() {
           <button className="border border-gray-600 p-1 rounded-md shadow shadow-blue-200">Submit a request | create a new card</button>
         </div>
       </header>
-      <main className='mt-3'>
+      <main className=''>
         <CardList />
       </main>
     </div>
