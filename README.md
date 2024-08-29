@@ -4,17 +4,27 @@
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
+   git https://github.com/LepharamRamchiary/help-center
+   cd help-center
    ```
-
-2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
-
-3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
+   
+2. **Backend:**
+   ```bash
+   cd api
+   npm i
+   ```
+   - Set-up .env file-
+   ```
+   PORT = YOUR_PORT_NUMBER
+   CORS_ORIGIN = *
+   MONGODB_URL = YOUR_MONGODB_URL
+   ```
+   - Start Server
+   ```bash
+   npm start // if you have nodejs
+   or
+   npm run dev // if you have install nodemon
+   ```
 
 4. **Push Your Work:**
    - Push both the frontend and backend apps to the same repository.
