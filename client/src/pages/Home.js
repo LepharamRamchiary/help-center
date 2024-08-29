@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Card from './Card';
-import SearchBar from './SearchBar';
+import Card from '../components/Card';
+import SearchBar from '../components/SearchBar';
 
-const CardList = () => {
+const Home = () => {
   const [cards, setCards] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -42,4 +42,4 @@ const CardList = () => {
   );
 };
 
-export default CardList;
+export default Home;
